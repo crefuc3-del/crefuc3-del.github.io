@@ -1020,6 +1020,86 @@ body {
     }
 }
 
+/* ===== AUTHOR PHOTO STYLES ===== */
+.author-photo-container {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.author-photo {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 8px solid white;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    display: block;
+    margin: 0 auto;
+}
+
+.photo-badge {
+    position: absolute;
+    bottom: 20px;
+    right: -20px;
+    background: linear-gradient(135deg, #3498db, #2c3e50);
+    color: white;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Profile photo in about section */
+.profile-photo-container {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.profile-photo {
+    width: 250px;
+    height: 250px;
+    border-radius: 20px;
+    object-fit: cover;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+    border: 5px solid white;
+}
+
+.photo-caption {
+    margin-top: 15px;
+    color: #666;
+    font-style: italic;
+    font-size: 0.95rem;
+}
+
+/* Hero section photo */
+.author-hero-photo {
+    position: relative;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+.author-hero-photo img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid white;
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.photo-frame {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border: 2px solid #3498db;
+    border-radius: 50%;
+    pointer-events: none;
+}
 @media (max-width: 768px) {
     .hero-title {
         font-size: 2.8rem;
